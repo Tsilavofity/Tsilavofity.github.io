@@ -1,0 +1,48 @@
+body {
+	font-family: ubuntu;
+	background-color: whitesmoke;
+	display: flex;
+}
+
+img {
+	width: 150px;
+	height: 200px;
+	border:2px solid silver;
+	border-radius: 30px;
+}
+
+.containerLeft{
+	border-right: 2px solid silver ;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.container1 {
+	text-align: center;
+	background-color: silver;
+	width: 100%;
+	border:2px solid silver;
+	box-shadow: 6px 6px 6px black;
+
+}
+
+.container1 h3 {
+	color: black;
+}
+
+h3 {
+	border-bottom: 2px solid silver ;
+	color: silver;
+}
+
+.containerRight {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 1024px)  {
+	body {
+		display: inline;
+	}
+}
